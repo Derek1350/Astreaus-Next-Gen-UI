@@ -8,7 +8,7 @@ const HeroSection = () => (
                 <div className="inline-block bg-slate-800 text-sky-300 text-sm font-semibold px-4 py-1 rounded-full mb-4">
                     Pioneering the Future of Digital Intelligence
                 </div>
-                <h2 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6 hero-glow rounded-full p-4">
+                <h2 className="text-4xl md:text-7xl font-extrabold tracking-tighter mb-6 hero-glow rounded-full p-4">
                     Algorithmic Trading & <span className="gradient-text">AI Security</span> Redefined
                 </h2>
                 <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
