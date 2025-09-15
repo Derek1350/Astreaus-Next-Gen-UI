@@ -39,7 +39,7 @@ const PrivacyPolicyPage = () => (
             <h3 className="text-2xl font-semibold mt-8 mb-4 gradient-text">4. Contact Us</h3>
             <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
             <ul className="list-disc list-inside mt-2 space-y-1">
-              <li>By Email: <a href="mailto:info@astraeusnextgen.com" className="text-sky-400 hover:underline">legal@astraeusnextgen.com</a></li>
+              <li>By Email: <a href="mailto:info@astraeusnextgen.com" className="text-sky-400 hover:underline">info@astraeusnextgen.com</a></li>
               <li>By Mail: [Your Company's Physical Address]</li>
             </ul>
           </div>
