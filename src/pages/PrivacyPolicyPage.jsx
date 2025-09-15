@@ -40,7 +40,12 @@ const PrivacyPolicyPage = () => (
             <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
             <ul className="list-disc list-inside mt-2 space-y-1">
               <li>By Email: <a href="mailto:info@astraeusnextgen.com" className="text-sky-400 hover:underline">info@astraeusnextgen.com</a></li>
-              <li>By Mail: [Your Company's Physical Address]</li>
+              <li>
+                By Mail: 
+                AVANEESH SNO 7/1 (P) 7/2 NR, 
+                KOKAN EXPRESS, KOTHRUD, 
+                PUNE- 411038
+              </li>
             </ul>
           </div>
         </div>
