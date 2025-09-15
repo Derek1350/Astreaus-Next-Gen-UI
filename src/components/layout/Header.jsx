@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // --- Add this import ---
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,10 @@ const Header = () => {
         <>
             <header className="fixed w-full top-0 z-50 bg-black bg-opacity-50 backdrop-blur-md">
                 <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-                    <h1 className="text-2xl font-bold tracking-tighter">Astraeus<span className="gradient-text">NextGen</span></h1>
+                    
+                    <Link to="/" className="text-2xl font-bold tracking-tighter">
+                        Astraeus<span className="gradient-text">NextGen</span>
+                    </Link>
                     
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex space-x-8">
@@ -55,4 +59,3 @@ const Header = () => {
 };
 
 export default Header;
-
